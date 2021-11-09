@@ -1,12 +1,13 @@
 header {
-    background-color: #244751;
+    background-color: slategray;
     color: #E8FDFF;
 }
 body {
-    background-color: gainsboro;
+    font-family: 'Mohave', sans-serif;
+    background-color: lightsteelblue;
 }
 main {
-    background-color: white;
+    background-color: lightslategray;
     padding: 20px;
 }
 .finstagram-post {
@@ -14,4 +15,23 @@ main {
 }
 .finstagram-post .user-info img {
     border-radius: 25%;
+}
+.user-info {
+    color: white;
+}
+.user-info:hover {
+    color: rgb(70, 165, 243);
+}
+.actions {
+    color: white;
+}
+.comments {
+    color: white;
+}
+a.photo {
+    transition: padding 0.25s;
+}
+a.photo:hover {
+    padding:5px;
+    transition: padding 0.25s;
 }
