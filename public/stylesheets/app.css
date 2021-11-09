@@ -1,13 +1,18 @@
 header {
-    background-color: slategray;
-    color: #E8FDFF;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    transition: padding 0.25s;
+}
+header:hover{
+    padding:5px;
+    transition: padding 0.25s;
 }
 body {
     font-family: 'Mohave', sans-serif;
-    background-color: lightsteelblue;
+    background-color: rgb(15, 15, 15);
 }
 main {
-    background-color: lightslategray;
+    background-color: rgb(25, 25, 25);
     padding: 20px;
 }
 .finstagram-post {
