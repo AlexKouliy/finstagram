@@ -30,7 +30,7 @@ get '/finstagram_posts/new' do
 
 get 'finstagram_posts/:id' do
     @finstagram_post = FinstagramPost.find(params[:id])
-    esrb(:"finstagram_posts/show")
+    erb(:"finstagram_posts/show")
 end
 
 post '/signup' do
