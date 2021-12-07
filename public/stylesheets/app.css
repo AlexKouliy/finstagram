@@ -1,6 +1,6 @@
 header {
     background-color: rgb(5, 5, 5);
-    color: white;
+    color: lightgray;
     transition: padding 0.25s;
 }
 header:hover{
@@ -22,16 +22,16 @@ main {
     border-radius: 25%;
 }
 .user-info {
-    color: white;
+    color: lightgray;
 }
 .user-info:hover {
     color: rgb(70, 165, 243);
 }
 .actions {
-    color: white;
+    color: lightgray;
 }
 .comments {
-    color: white;
+    color: lightgray;
 }
 a.photo {
     transition: padding 0.25s;
